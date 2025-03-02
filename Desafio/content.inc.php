@@ -23,8 +23,8 @@
     </div>
   </div>
 </section>
-<section class="py-5 text-center mb-3" id="testimonials">
-  <h2 class="mb-4 fw-bolder">Testimonios</h2>
+<section class="p-2 text-center mb-3" id="testimonials">
+  <h2 class="mb-4 fw-bolder text-start">Testimonios</h2>
   <div class="container">
     <div class="row container-testimoniales">
 

@@ -6,7 +6,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center hero-div">
       <h1 class="display-3 animate__animated animate__fadeInDown">Bienvenido a SeguriTech</h1>
-      <p class="lead animate__animated animate__fadeInUp">Tu tranquilidad es nuestra prioridad. En SeguriTech creamos soluciones inteligentes que te cuidan las 24 horas, porque proteger lo que más valoras no es solo nuestro trabajo, es nuestra misión.</p>
+      <p class="lead animate__animated animate__fadeInUp">Cuidamos tu mundo, protegemos tu futuro.</p>
       <a href="#content" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp">Descubre Más</a>
     </div>
   </section>

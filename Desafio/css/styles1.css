@@ -37,21 +37,6 @@ body {
   font-size: 1.25rem;
 }
 
-/* Características: Sección de Cards */
-#features {
-  background-color: #fff;
-  padding: 60px 0;
-}
-
-#features .card {
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-#features .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
 /* Sidebar */
 #sidebar {
   background-color: #64646436;
