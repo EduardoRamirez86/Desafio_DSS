@@ -2,63 +2,157 @@
 
 /* Fuente base y fondo global */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Sección Hero con fondo degradado */
-  #hero {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 15px;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sección Hero con imagen de fondo */
+#hero {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0.4) 65%, rgba(0, 0, 0, 0.9) 100%),
+    url(../img/mainphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+#hero .hero-div {
+  margin-top: 25vh;
+}
+
+#hero h1 {
+  font-weight: 700;
+}
+
+#hero p {
+  font-size: 1.25rem;
+}
+
+/* Características: Sección de Cards */
+#features {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+#features .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#features .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: #64646436;
+}
+
+/*Inputs oscuros*/
+.form-control.bg-dark::placeholder {
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+
+/* Footer */
+footer {
+  background-color: #1c1c1c;
+}
+
+/*Navbar*/
+
+.brand {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+/*Servicios*/
+.tarjeta-servicios {
+  height: 25em;
+  position: relative;
+  border-radius: 10px;
+  transition: ease 0.5s;
+}
+
+.tarjeta-servicios:hover{
+  transform: scale(1.05);
+  transition: ease 0.5s;
+}
+
+.tarjeta-servicios:nth-child(1) {
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 100%),
+    url(../img/camaras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjeta-servicios:nth-child(2) {
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 100%),
+    url(../img/ciberseguridad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjeta-servicios:nth-child(3) {
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 100%),
+    url(../img/biometrica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tarjeta-servicios>div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  color: white;
+  padding: 1em;
+}
+
+/*Testimoniales*/
+.container-testimoniales > div > div{
+  height: 100%;
+  background-color: rgba(63, 63, 63, 0.164);
+  color: white;
+}
+
+.container-testimoniales > div > div:hover {
+  transform: scale(1.05);
+  transition: ease 0.5s;
+}
+
+
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
   #hero h1 {
-    font-weight: 700;
+    font-size: 2rem;
   }
-  
-  #hero p {
-    font-size: 1.25rem;
+
+  .tarjeta-servicios {
+    height: 10em;
   }
-  
-  /* Características: Sección de Cards */
-  #features {
-    background-color: #fff;
-    padding: 60px 0;
+
+  .tarjeta-servicios p {
+    font-size: 0.9em;
   }
-  
-  #features .card {
-    transition: transform 0.3s, box-shadow 0.3s;
+
+  .tarjeta-servicios h3 {
+    font-size: 1em;
   }
-  
-  #features .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  }
-  
-  /* Sidebar */
-  #sidebar {
-    background-color: #fff;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #1c1c1c;
-  }
-  
-  /* Ajustes responsivos */
-  @media (max-width: 768px) {
-    #hero {
-      height: 70vh;
-    }
-    #hero h1 {
-      font-size: 2rem;
-    }
-  }
-  
+}
