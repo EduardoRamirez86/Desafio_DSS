@@ -5,8 +5,8 @@
   <!-- Sección Hero con fondo degradado, animaciones y llamada a la acción -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center hero-div">
-      <h1 class="display-3 animate__animated animate__fadeInDown">Bienvenido a Soluciones Innovadoras</h1>
-      <p class="lead animate__animated animate__fadeInUp">Transformamos ideas en realidades digitales.</p>
+      <h1 class="display-3 animate__animated animate__fadeInDown">Bienvenido a SeguriTech</h1>
+      <p class="lead animate__animated animate__fadeInUp">Tu tranquilidad es nuestra prioridad. En SeguriTech creamos soluciones inteligentes que te cuidan las 24 horas, porque proteger lo que más valoras no es solo nuestro trabajo, es nuestra misión.</p>
       <a href="#content" class="btn btn-lg btn-outline-light animate__animated animate__fadeInUp">Descubre Más</a>
     </div>
   </section>
